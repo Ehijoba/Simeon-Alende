@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simeon Alende - Portfolio</title>
+    <style>
+        /* Styling */
+        body {
+            background-color: #000000; /* Added background color */
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .profile img {
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            max-width: 200px;
+            height: auto;
+        }
+        .dropdown {
+            margin-top: 20px;
+        }
+        .dropbtn {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            text-align: left;
+            transition: background-color 0.3s ease;
+        }
+        .dropdown-content {
+            display: none;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .dropdown-content p {
+            margin: 5px 0;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .progress-bar {
+            background-color: #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+        .progress-bar-inner {
+            background-color: #3498db;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="profile">
+        <img src="https://i.ibb.co/wc388PM/profile-picture.jpg" alt="Profile Picture">
+        <p>
+            My name is Simeon Alende, a versatile professional skilled in both full-stack development and graphic design. With a passion for crafting engaging user experiences, I bring creativity and technical expertise to every project. With years of experience in coding and design, I excel in translating concepts into visually stunning and functional digital solutions.
+        </p>
+        <p>Email: <a href="mailto:simeonalende22@gmail.com">simeonalende22@gmail.com</a><br>
+        Phone: <a href="tel:+2347087415067">+2347087415067</a><br>
+        Status: Online<br>
+        Location: Ibadan, Nigeria</p>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">⌄ My Services</button>
+        <div class="dropdown-content">
+            <p>Web Development</p>
+            <p>UI/UX Design</p>
+            <p>Graphic Design</p>
+            <p>Database Management</p>
+            <p>SEO Optimization</p>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">⌄ Qualifications</button>
+        <div class="dropdown-content">
+            <div class="progress-bar">
+                <div class="progress-bar-inner" style="width: 85%;">Full-stack Developing: 85%</div>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-bar-inner" style="width: 90%;">Graphic Design: 90%</div>
+            </div>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">⌄ References</button>
+        <div class="dropdown-content">
+            <div>
+                <img src="https://i.ibb.co/4ZYP88F/reference1.jpg" alt="Reference 1">
+                <p>Alex Thompson</p>
+                <p>CEO Wayne Enterprises</p>
+                <p>"I had the pleasure of working with Mr. Alende on a web development project, and I must say, he's an exceptional full-stack developer. Mr. Alende's attention to detail, problem-solving skills, and commitment to excellence were truly impressive. He delivered the project on time and exceeded our expectations. I highly recommend him for any web development needs."</p>
+            </div>
+            <div>
+                <img src="https://i.ibb.co/xjzyH0s/reference2.jpg" alt="Reference 2">
+                <p>Emily Rodriguez</p>
+                <p>Graphics designer</p>
+                <p>"Mr. Alende is an incredibly talented graphic designer. I hired him to design the branding materials for my business, and I couldn't be happier with the results. Mr. Alende's creativity, professionalism, and ability to capture the essence of our brand were outstanding. He brought our ideas to life with his designs, and the feedback from our customers has been overwhelmingly positive. I highly recommend him for any graphic design projects."</p>
+            </div>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">⌄ Contact Information</button>
+        <div class="dropdown-content">
+            <a href="https://t.me/Ehi_joba"><img src="https://i.ibb.co/xHGBbp9/telegram-logo.png" alt="Telegram" width="30"></a>
+            <a href="https://www.instagram.com/invites/contact/?i=8cmecn2ti1qm&utm_content=fk9bd2q"><img src="https://i.ibb.co/7b0XwB0/instagram-logo.png" alt="Instagram" width="30"></a>
+            <a href="https://wa.me/07087415067"><img src="https://i.ibb.co/pZkR7wb/whatsapp-logo.png" alt="WhatsApp" width="30"></a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
