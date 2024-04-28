@@ -1,0 +1,134 @@
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simeon Alende - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+        }
+        .dropdown-content {
+            display: none;
+            padding-left: 20px;
+        }
+        .dropdown-btn {
+            cursor: pointer;
+        }
+        .progress-bar {
+            margin-bottom: 10px;
+            background-color: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .progress {
+            background-color: #4CAF50;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="profile-img" src="https://drive.google.com/uc?export=view&id=1MN_CiCgtHiF-tCI7YtojjMFLp7UgOxqf" alt="Simeon Alende">
+        <p>My name is Simeon Alende, a 100 level student of Computer Engineering in Obafemi Awolowo University, a versatile professional skilled in both full-stack development and graphic design. With a passion for crafting engaging user experiences, I bring creativity and technical expertise to every project. With years of experience in coding and design, I excel in translating concepts into visually stunning and functional digital solutions. My proficiency in frontend and backend technologies allows me to create seamless web applications that captivate users and drive results. From concept to execution, I thrive on the challenge of blending aesthetics with functionality to deliver impactful digital experiences. As a full-stack developer and graphic designer, I am dedicated to pushing boundaries and creating innovative solutions that leave a lasting impression.</p>
+        <p>Email: <a href="mailto:simeonalende22@gmail.com">simeonalende22@gmail.com</a></p>
+        <p>Phone: <a href="tel:+2347087415067">+2347087415067</a></p>
+        <p>Status: Online</p>
+        <p>Location: Ibadan, Nigeria</p>
+        <div class="dropdown">
+            <p class="dropdown-btn">&#x25BC; My Services</p>
+            <div class="dropdown-content">
+                <p>Web Development</p>
+                <p>UI/UX Design</p>
+                <p>Graphic Design</p>
+                <p>Database Management</p>
+                <p>SEO Optimization</p>
+            </div>
+        </div>
+        <div class="dropdown">
+            <p class="dropdown-btn">&#x25BC; Qualifications</p>
+            <div class="dropdown-content">
+                <p>Full-stack Developing</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;">Frontend Development</div>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;">Backend Development</div>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;">Database Management</div>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;">Version Control</div>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 88%;">API Integration</div>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 92%;">Problem Solving</div>
+                </div>
+                <p>Graphic Design</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;">Visual Communication</div>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;">Adobe Creative Suite</div>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 88%;">Brand Identity</div>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 92%;">User Experience (UX) Design</div>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;">Attention to Detail</div>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;">Creativity</div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <p class="dropdown-btn">&#x25BC; References</p>
+            <div class="dropdown-content">
+                <img src="https://drive.google.com/uc?export=view&id=1MeSe9vUzoXkY_SdvGlsE4GyB8WEebuHA" alt="Alex Thompson">
+                <p>Alex Thompson</p>
+                <p>CEO Wayne Enterprises</p>
+                <p>"I had the pleasure of working with Mr. Alende on a web development project, and I must say, he's an exceptional full-stack developer. Mr. Alende's attention to detail, problem-solving skills, and commitment to excellence were truly impressive. He delivered the project on time and exceeded our expectations. I highly recommend him for any web development needs."</p>
+                <img src="https://drive.google.com/uc?export=view&id=1MY9nmW8kN5RMg8FPeKJx1Hs2Psi0riyY" alt="Emily Rodriguez">
+                <p>Emily Rodriguez</p>
+                <p>Graphics Designer</p>
+                <p>"Mr. Alende is an incredibly talented graphic designer. I hired him to design the branding materials for my business, and I couldn't be happier with the results. Mr. Alende's creativity, professionalism, and ability to capture the essence of our brand were outstanding. He brought our ideas to life with his designs, and the feedback from our customers has been overwhelmingly positive. I highly recommend him for any graphic design projects."</p>
+            </div>
+        </div>
+        <div class="dropdown">
+            <p class="dropdown-btn">&#x25BC; 
+<div class="dropdown">
+    <p class="dropdown-btn">&#x25BC; Contact Information</p>
+    <div class="dropdown-content">
+        <a href="https://t.me/Ehi_joba"><img src="https://drive.google.com/uc?export=view&id=1NAxqmwXRLHbwdtpCyKqt6nYF4slW-W6h" alt="Telegram"></a>
+        <a href="https://www.instagram.com/invites/contact/?i=8cmecn2ti1qm&utm_content=fk9bd2q"><img src="https://drive.google.com/uc?export=view&id=1NG7GkITIrqpxHRII3co5lAJlnEFNmjT_" alt="Instagram"></a>
+        <a href="https://wa.me/07087415067"><img src="https://drive.google.com/uc?export=view&id=1NFATgbNSAcxxa58mHLZ68BNH6RnQU5-F" alt="WhatsApp"></a>
+    </div>
+</div>
